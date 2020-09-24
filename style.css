@@ -16,6 +16,16 @@ header .sign-in img {
     margin-bottom: 5px;
 }
 
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover,
+header ul li:hover {
+    color: #3b5dcc;
+}
+
 .body {
     color: #444;
     background: #666;
@@ -55,7 +65,6 @@ header li {
 
 .mapImage {
     width: 100%;
-    /* max-width: 1000px; */
     padding: 10px 65px;
 }
 
@@ -67,11 +76,6 @@ header li {
 section {
     padding: 10px 30px;
 }
-
-/* .sections section h4,
-.sections section p {
-    display: inline;
-} */
 
 .sections section h4,
 .sections section p {
@@ -94,9 +98,6 @@ section {
 /* Footer */
 body footer {
     background: #f2f2f2;
-    /* text-align: center;
-    justify-content: center;
-    margin: auto; */
 }
 
 body footer .footer {
@@ -112,7 +113,6 @@ body footer .footer {
 
 body footer ul {
     display: flex;
-    /* justify-content: center; */
     justify-content: space-between;
 }
 
