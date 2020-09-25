@@ -106,6 +106,15 @@ form .text-field {
     color: #fff;
 }
 
+.sub-field {
+    margin: 10px 0px
+}
+
+.sub-field label {
+    padding: 3px;
+    color: #3b5dcc;
+}
+
 .text-field input:focus~span::before,
 .text-field input:valid~span::before {
     width: 100%;
