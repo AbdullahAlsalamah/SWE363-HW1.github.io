@@ -1,129 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The webstie will give some Information about Saudi Arabia as well it will introduce the three biggest cities in Saudi Arabias"
+    />
+    <meta name="keywords" content="Saudi, Saudi Arabia, KSA" />
+    <meta name="author" content="Abdullah" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Saudi Arabia Map</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="index.html"><img src="imgs/web_logo.png" alt="" height="60px" width="170px" /></a>
-        <nav>
-            <ul>
-                <li><a href="#">MAPS</a></li>
-                <li><a href="#">RESOURCES</a></li>
-                <li><a href="#">EVENTS</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-            </ul>
-        </nav>
-        <div class="sign-in">
-            <img src="imgs/signin.png" alt="" height="45px" width="50px" />
-            <div class="sign-in-up">
-                <a href="login.html">Sign in</a>
-                /
-                <a href="Registration.html">Sign up</a>
-            </div>
+      <a href="index.html"
+        ><img src="imgs/web_logo.png" alt="" height="60" width="170"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="#">MAPS</a></li>
+          <li><a href="#">RESOURCES</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">PRODUCTS</a></li>
+        </ul>
+      </nav>
+      <div class="sign-in">
+        <img src="imgs/signin.png" alt="" height="45" width="50" />
+        <div class="sign-in-up">
+          <a href="login.html">Sign in</a>
+          /
+          <a href="Registration.html">Sign up</a>
         </div>
+      </div>
     </header>
 
     <div class="body">
+      <div class="mapImage">
+        <figure>
+          <img
+            src="imgs/satellite-image-of-saudi-arabia.jpg"
+            alt=""
+            height="500"
+            width="870"
+            usemap="#workmap"
+          />
 
-        <div class="mapImage">
-            <figure>
-                <img src="imgs/satellite-image-of-saudi-arabia.jpg" alt="" height="500px" width="870px"
-                    usemap="#workmap" />
+          <map name="workmap">
+            <area
+              alt="Riyadh"
+              title="Riyadh, Saudi Arabia’s capital and main financial hub, is on a desert plateau in the country’s center. Business district landmarks include the 302m-high Kingdom Centre, with a sky bridge connecting 2 towers, and 267m-high Al Faisaliah Centre, with a glass-globe summit. In the historical Deira district, Masmak Fort marks the site of the 1902 raid that gave the Al Sauds control of Riyadh."
+              href="Riyadh.html"
+              coords="370,200,500,320"
+              shape="rect"
+            />
+            <area
+              alt="Khobar"
+              title="Al-Khobar is a Saudi Arabian city on the Arabian Gulf. Its Corniche, a large waterfront area, includes Prince Faisal bin Fahad Sea Park, with cafes and playgrounds. Nearby, the city’s island Water Tower offers panoramic views. The Sultan Bin Abdulaziz Science & Technology Center (SciTech) has an aquarium, interactive displays and an IMAX theater. West, the Aramco Exhibit is a museum exploring the Saudi oil industry."
+              href="Khobar.html"
+              coords="530,150,630,250"
+              shape="rect"
+            />
+            <area
+              alt="Mecca"
+              title="Mecca, in a desert valley in western Saudi Arabia, is Islam’s holiest city, as it’s the birthplace of the Prophet Muhammad and the faith itself. Only Muslims are allowed in the city, with millions arriving for the annual Hajj (pilgrimage). Dating from the 7th century, the central Masjid al-Haram (Sacred Mosque) surrounds the Kaaba, the cloth-covered cubic structure that’s Islam’s most sacred shrine."
+              href="Mecca.html"
+              coords="180,280,300,370"
+              shape="rect"
+            />
+          </map>
+          <figcaption>
+            <strong>Saudi Arabia Information:</strong> Saudi Arabia is located
+            in the Middle East. Saudi Arabia is bordered by and the Red Sea to
+            the west, Yemen and Oman to the south, the Persian Gulf, Qatar and
+            United Arab Emirates to the east, and Kuwait, Iraq, and Jordan to
+            the north.
+          </figcaption>
+        </figure>
+      </div>
 
-                <map name="workmap">
-                    <area target="" alt="Riyadh"
-                        title="Riyadh, Saudi Arabia’s capital and main financial hub, is on a desert plateau in the country’s center. Business district landmarks include the 302m-high Kingdom Centre, with a sky bridge connecting 2 towers, and 267m-high Al Faisaliah Centre, with a glass-globe summit. In the historical Deira district, Masmak Fort marks the site of the 1902 raid that gave the Al Sauds control of Riyadh."
-                        href="Riyadh.html" coords="370,200,500,320" shape="rect">
-                    <area target="" alt="Khobar"
-                        title="Al-Khobar is a Saudi Arabian city on the Arabian Gulf. Its Corniche, a large waterfront area, includes Prince Faisal bin Fahad Sea Park, with cafes and playgrounds. Nearby, the city’s island Water Tower offers panoramic views. The Sultan Bin Abdulaziz Science & Technology Center (SciTech) has an aquarium, interactive displays and an IMAX theater. West, the Aramco Exhibit is a museum exploring the Saudi oil industry."
-                        href="Khobar.html" coords="530,150,630,250" shape="rect">
-                    <area target="" alt="Mecca"
-                        title="Mecca, in a desert valley in western Saudi Arabia, is Islam’s holiest city, as it’s the birthplace of the Prophet Muhammad and the faith itself. Only Muslims are allowed in the city, with millions arriving for the annual Hajj (pilgrimage). Dating from the 7th century, the central Masjid al-Haram (Sacred Mosque) surrounds the Kaaba, the cloth-covered cubic structure that’s Islam’s most sacred shrine."
-                        href="Mecca.html" coords="180,280,300,370" shape="rect">
-                </map>
-                <figcaption>
-                    <strong>Saudi Arabia Information:</strong> Saudi Arabia is located in
-                    the Middle East. Saudi Arabia is bordered by and the Red Sea to the
-                    west, Yemen and Oman to the south, the Persian Gulf, Qatar and United
-                    Arab Emirates to the east, and Kuwait, Iraq, and Jordan to the north.
-                </figcaption>
-            </figure>
-        </div>
-
-        <div class="sections">
-            <hr />
-            <section>
-                <img src="imgs/google-earth.jpg" alt="" />
-                <div class="img-text">
-                    <h4>Explore Saudi Arabia Using Google Earth:</h4>
-                    <p>
-                        Google Earth is a free program from Google that allows you to explore
-                        satellite images showing the cities and landscapes of Saudi Arabia and
-                        all of Asia in fantastic detail. It works on your desktop computer,
-                        tablet, or mobile phone. The images in many areas are detailed enough
-                        that you can see houses, vehicles and even people on a city street.
-                        Google Earth is free and easy-to-use.
-                    </p>
-                </div>
-            </section>
-            <hr />
-            <section>
-                <img src="imgs/Saudi Arabia on a World Wall Map.jpg" alt="" />
-                <div class="img-text">
-                    <h4>Saudi Arabia on a World Wall Map:</h4>
-                    <p>
-                        Saudi Arabia is one of nearly 200 countries illustrated on our Blue
-                        Ocean Laminated Map of the World. This map shows a combination of
-                        political and physical features. It includes country boundaries, major
-                        cities, major mountains in shaded relief, ocean depth in blue color
-                        gradient, along with many other features. This is a great map for
-                        students, schools, offices and anywhere that a nice map of the world
-                        is needed for
-                    </p>
-                </div>
-            </section>
-            <hr />
-            <section>
-                <img src="imgs/Saudi Arabia On a Large Wall Map of Asia.jpg" alt="" />
-                <div class="img-text">
-                    <h4 style="display: inline">
-                        Saudi Arabia On a Large Wall Map of Asia:
-                    </h4>
-                    <p>
-                        If you are interested in Saudi Arabia and the geography of Asia our
-                        large laminated map of Asia might be just what you need. It is a large
-                        political map of Asia that also shows many of the continent's physical
-                        features in color or shaded relief. Major lakes, rivers,cities, roads,
-                        country boundaries, coastlines and surrounding islands are all shown
-                        on the map
-                    </p>
-                </div>
-            </section>
-            <hr />
-        </div>
-
+      <div class="sections">
+        <hr />
+        <section>
+          <img src="imgs/google-earth.jpg" alt="" />
+          <div class="img-text">
+            <h4>Explore Saudi Arabia Using Google Earth:</h4>
+            <p>
+              Google Earth is a free program from Google that allows you to
+              explore satellite images showing the cities and landscapes of
+              Saudi Arabia and all of Asia in fantastic detail. It works on your
+              desktop computer, tablet, or mobile phone. The images in many
+              areas are detailed enough that you can see houses, vehicles and
+              even people on a city street. Google Earth is free and
+              easy-to-use.
+            </p>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <img src="imgs/Saudi-Arabia-on-a-World-Wall-Map.jpg" alt="" />
+          <div class="img-text">
+            <h4>Saudi Arabia on a World Wall Map:</h4>
+            <p>
+              Saudi Arabia is one of nearly 200 countries illustrated on our
+              Blue Ocean Laminated Map of the World. This map shows a
+              combination of political and physical features. It includes
+              country boundaries, major cities, major mountains in shaded
+              relief, ocean depth in blue color gradient, along with many other
+              features. This is a great map for students, schools, offices and
+              anywhere that a nice map of the world is needed for
+            </p>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <img src="imgs/Saudi-Arabia-On-a-Large-Wall-Map-of-Asia.jpg" alt="" />
+          <div class="img-text">
+            <h4 style="display: inline">
+              Saudi Arabia On a Large Wall Map of Asia:
+            </h4>
+            <p>
+              If you are interested in Saudi Arabia and the geography of Asia
+              our large laminated map of Asia might be just what you need. It is
+              a large political map of Asia that also shows many of the
+              continent's physical features in color or shaded relief. Major
+              lakes, rivers,cities, roads, country boundaries, coastlines and
+              surrounding islands are all shown on the map
+            </p>
+          </div>
+        </section>
+        <hr />
+      </div>
     </div>
 
     <footer>
-        <div class="footer">
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Advertise</a></li>
-                <li><a href="">Conditions of Use</a></li>
-                <li><a href="">Privacy</a></li>
-            </ul>
-            <p>&copy; 2005-2020 Geology.com. All Rights Reserved.</p>
-            <p>Images, code, and content on this website are property of Geology.com and are protected by copyright law.
-                Geology.com does not grant permission for any use, republication, or redistribution.</p>
-        </div>
+      <div class="footer">
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="vildation.html">Vildation</a></li>
+          <li><a href="">Conditions of Use</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+        <p>&copy; 2005-2020 Geology.com. All Rights Reserved.</p>
+        <p>
+          Images, code, and content on this website are property of Geology.com
+          and are protected by copyright law. Geology.com does not grant
+          permission for any use, republication, or redistribution.
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
