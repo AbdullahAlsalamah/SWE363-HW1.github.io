@@ -1,3 +1,6 @@
+/* I used this code for the registration and login page and the design I got inspired and help from some online reasources */
+
+
 .container {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(59, 93, 204, 1) 35%, rgba(0, 212, 255, 1) 100%);
     /* position: absolute; */
@@ -10,7 +13,7 @@
     overflow: hidden;
 }
 
-
+/* For the form container to make it look better */
 .center {
     /* position: absolute;
     top: 30%;
@@ -46,6 +49,9 @@ form .text-field {
     background: none;
     outline: none;
 }
+
+/* For the transform -50 to make above the input fied so when the user click on the filed the text will move above 
+With some transation */
 
 .text-field label {
     position: absolute;
@@ -97,6 +103,7 @@ form .text-field {
     border-radius: 10px;
 }
 
+/* To remove the boxes of the checkbox */
 .checkbox input[type="checkbox"] {
     display: none;
 }
@@ -106,6 +113,8 @@ form .text-field {
     color: #fff;
 }
 
+
+/* Design for the Subscription checkbox */
 .sub-field {
     margin: 10px 0px
 }

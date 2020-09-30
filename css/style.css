@@ -1,3 +1,6 @@
+/* I used flex box to layout the elements on the page */
+
+/* To reset the marign and padding as well using borderbox to so I can set the most suitable padding and marign myself */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +15,7 @@ body {
     justify-content: space-between;
 }
 
-
+/* Header */
 body header {
     background: #f2f2f2;
     display: flex;
@@ -34,6 +37,8 @@ header ul li:hover {
     color: #3b5dcc;
 }
 
+
+/* Body */
 .body {
     color: #444;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(59, 93, 204, 1) 35%, rgba(0, 212, 255, 1) 100%);
